@@ -1,0 +1,62 @@
+@use 'reset';
+@use 'variables' as *;
+
+$grayColor: #1C1717;
+$yellowColor: #FCB84C;
+$greenColor: #22B573;
+
+body{
+	background-color: $greenColor;
+}
+
+.burger-menu{
+	background-color: black;
+	right: 1.25rem;
+	top: 1.25rem;
+}
+
+.burger-menu-line{
+	background-color: white;
+}
+
+.container{
+	width: 100vw;
+}
+
+.firstDiv, .thirdDiv{
+	min-height: 400px;
+	width: 260px;
+	background-color: $grayColor;
+}
+
+.secondDiv{
+	color: $grayColor;
+	min-height: 400px;
+	width: 260px;
+}
+
+.orangetext{
+	color: $yellowColor;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.graytext{
+	color: $grayColor;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.7px;
+	line-height: 20px;
+}
+
+.whitetext{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.7px;
+	line-height: 20px;
+}
+
+button{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
